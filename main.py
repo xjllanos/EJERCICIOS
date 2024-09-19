@@ -44,12 +44,12 @@ import modulos.ejercicio_8 as ejercicio_8
 #funciones.calculo(operacion,numero1,numero2)
 
 #7
-#valor_exportaciones= float(input("Ingrese valor exportaciones: "))
-#valor_nacionales= float(input("Ingrese valor nacionales: "))
-#resultado_exportaciones = funciones.calculo_impuestos_exportaciones(valor_exportaciones)
-#resultado_nacionales = funciones.calculo_impuestos_nacionales(valor_nacionales)
-#print(f"Resultado nacionales:",{resultado_nacionales},"- Resultado exportaciones:",{resultado_exportaciones})
-#print(f"Total:",(resultado_exportaciones+resultado_nacionales))
+valor_exportaciones= float(input("Ingrese valor exportaciones: "))
+valor_nacionales= float(input("Ingrese valor nacionales: "))
+resultado_exportaciones = funciones.calculo_impuestos_exportaciones(valor_exportaciones)
+resultado_nacionales = funciones.calculo_impuestos_nacionales(valor_nacionales)
+print(f"Resultado nacionales:",{resultado_nacionales},"- Resultado exportaciones:",{resultado_exportaciones})
+print(f"Total:",(resultado_exportaciones+resultado_nacionales))
 
 #8
 nombre = input("Ingrese su nombre: ")
